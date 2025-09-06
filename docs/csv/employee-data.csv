@@ -1,0 +1,11 @@
+EmployeeID,FirstName,LastName,Email,Department,JobTitle,DateOfJoining,Salary,ManagerID,IsActive
+E001,John,Doe,john.doe@example.com,Engineering,Software Engineer,2020-03-15,75000,E010,True
+E002,Jane,Smith,jane.smith@example.com,Marketing,Marketing Specialist,2019-07-10,62000,E011,True
+E003,Robert,Brown,robert.brown@example.com,Sales,Sales Executive,2021-01-05,55000,E012,True
+E004,Emily,Johnson,emily.johnson@example.com,HR,HR Manager,2018-09-20,80000,E013,True
+E005,Michael,Williams,michael.williams@example.com,Finance,Financial Analyst,2022-05-01,68000,E014,True
+E006,Sarah,Miller,sarah.miller@example.com,Engineering,DevOps Engineer,2021-11-18,72000,E010,True
+E007,David,Wilson,david.wilson@example.com,Engineering,Intern,2023-06-01,30000,E001,False
+E008,Linda,Taylor,linda.taylor@example.com,Design,UI/UX Designer,2019-12-12,65000,E015,True
+E009,James,Anderson,james.anderson@example.com,Support,Customer Support Rep,2020-08-25,40000,E016,True
+E010,Karen,Thomas,karen.thomas@example.com,Engineering,Engineering Manager,2017-04-03,95000,,True

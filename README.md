@@ -42,7 +42,6 @@ To get started with this project, follow these steps:
     *   `langchain`
     *   `langchain-core`
     *   `langchain-community`
-    *   `pypdf`
 
 ## Usage
 
@@ -57,3 +56,24 @@ python document_loader/pdf.py
 This will load the PDF file located at `docs/pdf/agentic-ai.pdf`, split it into pages, and print the content of each page to the console.
 
 You can easily modify the `pdf.py` script to load your own PDF files by changing the `pdf_path` variable.
+
+
+## CSV Document Loader
+
+The project also includes a CSV document loader that can be used to load and process data from CSV files. The `csv_loader.py` script provides a simple interface for loading CSV files and splitting them into documents, where each row is treated as a separate document.
+
+To use the CSV loader, you can import the `load_csv` function from `document_loader/csv_loader.py` and pass the path to your CSV file.
+
+Here is an example of how to use the `load_csv` function:
+
+```python
+from document_loader.csv_loader import load_csv
+
+csv_path = "path/to/your/file.csv"
+documents = load_csv(csv_path)
+
+for doc in documents:
+    print(doc.page_content)
+```
+
+This will load the CSV file, process its contents, and print each row to the console. You can adapt this example to integrate the CSV loader into your own applications.
